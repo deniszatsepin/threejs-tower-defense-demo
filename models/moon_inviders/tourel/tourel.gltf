@@ -1,0 +1,581 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_83",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1728,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1728,
+            "max": [
+                1,
+                1,
+                0.910905
+            ],
+            "min": [
+                -1,
+                -1,
+                -0.00122052
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 20736,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1728,
+            "max": [
+                0.995185,
+                0.995185,
+                0.999991
+            ],
+            "min": [
+                -0.995185,
+                -0.995185,
+                -0.999991
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 41472,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1728,
+            "max": [
+                0.988976,
+                1
+            ],
+            "min": [
+                0.00187099,
+                0.0974994
+            ],
+            "type": "VEC2"
+        },
+        "accessor_48": {
+            "bufferView": "bufferView_83",
+            "byteOffset": 6720,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 744,
+            "type": "SCALAR"
+        },
+        "accessor_50": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 107520,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 744,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_52": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 116448,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 744,
+            "max": [
+                0.995185,
+                0.995185,
+                1
+            ],
+            "min": [
+                -0.995185,
+                -0.995185,
+                -4.56224e-06
+            ],
+            "type": "VEC3"
+        },
+        "accessor_54": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 125376,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 744,
+            "max": [
+                0.999878,
+                0.999878
+            ],
+            "min": [
+                0.00012239,
+                0.36341
+            ],
+            "type": "VEC2"
+        },
+        "accessor_75": {
+            "bufferView": "bufferView_83",
+            "byteOffset": 3456,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1632,
+            "type": "SCALAR"
+        },
+        "accessor_77": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 55296,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1632,
+            "max": [
+                1,
+                1,
+                1.53298
+            ],
+            "min": [
+                -1,
+                -1,
+                -0.00122052
+            ],
+            "type": "VEC3"
+        },
+        "accessor_79": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 74880,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1632,
+            "max": [
+                1,
+                0.999802,
+                1
+            ],
+            "min": [
+                -0.995185,
+                -0.999802,
+                -0.999982
+            ],
+            "type": "VEC3"
+        },
+        "accessor_81": {
+            "bufferView": "bufferView_84",
+            "byteOffset": 94464,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1632,
+            "max": [
+                0.969475,
+                0.963739
+            ],
+            "min": [
+                0.0289782,
+                0.0703901
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@b4ea90169e759529c34baaabbfb15b475053c177",
+        "premultipliedAlpha": true,
+        "profile": "WebGL 1.0.2",
+        "version": 0.8
+    },
+    "bufferViews": {
+        "bufferView_83": {
+            "buffer": "tourel",
+            "byteLength": 8208,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_84": {
+            "buffer": "tourel",
+            "byteLength": 131328,
+            "byteOffset": 8208,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "tourel": {
+            "byteLength": 139536,
+            "type": "arraybuffer",
+            "uri": "tourel.bin"
+        }
+    },
+    "materials": {
+        "Base-effect": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.64,
+                        0.64,
+                        0.64,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Base"
+        },
+        "Gun-effect": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.64,
+                        0.64,
+                        0.64,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Gun"
+        },
+        "Tower-effect": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.525,
+                        0.525,
+                        0.525,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5625,
+                        0.5625,
+                        0.5625,
+                        1
+                    ]
+                }
+            },
+            "name": "Tower"
+        }
+    },
+    "meshes": {
+        "Circle-mesh": {
+            "name": "Circle",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "Base-effect",
+                    "primitive": 4
+                }
+            ]
+        },
+        "Circle_002-mesh": {
+            "name": "Circle.002",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_79",
+                        "POSITION": "accessor_77",
+                        "TEXCOORD_0": "accessor_81"
+                    },
+                    "indices": "accessor_75",
+                    "material": "Tower-effect",
+                    "primitive": 4
+                }
+            ]
+        },
+        "Cylinder-mesh": {
+            "name": "Cylinder",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_52",
+                        "POSITION": "accessor_50",
+                        "TEXCOORD_0": "accessor_54"
+                    },
+                    "indices": "accessor_48",
+                    "material": "Gun-effect",
+                    "primitive": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Base": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "Circle-mesh"
+            ],
+            "name": "Base"
+        },
+        "Gun": {
+            "children": [],
+            "matrix": [
+                1.45594e-07,
+                0,
+                -0.16,
+                0,
+                0,
+                0.16,
+                0,
+                0,
+                0.8096,
+                0,
+                7.36706e-07,
+                0,
+                0.7,
+                0,
+                1.32,
+                1
+            ],
+            "meshes": [
+                "Cylinder-mesh"
+            ],
+            "name": "Gun"
+        },
+        "Tower_001": {
+            "children": [],
+            "matrix": [
+                0.933932,
+                0,
+                0,
+                0,
+                0,
+                0.933932,
+                0,
+                0,
+                0,
+                0,
+                0.933932,
+                0,
+                0,
+                0,
+                0.637809,
+                1
+            ],
+            "meshes": [
+                "Circle_002-mesh"
+            ],
+            "name": "Tower_001"
+        },
+        "node_3": {
+            "children": [
+                "Base",
+                "Gun",
+                "Tower_001"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "tourel0FS",
+            "vertexShader": "tourel0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_3"
+            ]
+        }
+    },
+    "shaders": {
+        "tourel0FS": {
+            "type": 35632,
+            "uri": "tourel0FS.glsl"
+        },
+        "tourel0VS": {
+            "type": 35633,
+            "uri": "tourel0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique1": {
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": false
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "ambient",
+                                "diffuse",
+                                "emission",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix",
+                                "shininess",
+                                "specular"
+                            ]
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_ambient": "ambient",
+                            "u_diffuse": "diffuse",
+                            "u_emission": "emission",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_shininess": "shininess",
+                            "u_specular": "specular"
+                        }
+                    },
+                    "states": {
+                        "depthMask": true,
+                        "enable": [
+                            2884,
+                            2929
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

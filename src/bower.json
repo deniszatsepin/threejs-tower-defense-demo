@@ -1,0 +1,33 @@
+{
+  "name": "threeder",
+  "version": "0.0.1",
+  "authors": [
+    "Denis Zatsepin <denis@zatsepin.spb.ru>"
+  ],
+  "description": "3d javascript game engine under ThreeJS",
+  "keywords": [
+    "3d",
+    "game",
+    "webgl",
+    "three",
+    "threejs",
+    "engine"
+  ],
+  "license": "MIT",
+  "homepage": "threeder.yummyweb.ru",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threejs": "*",
+    "eventemitter2": "~0.4.14",
+    "sparksjs": "*",
+    "tweenjs": "*",
+    "PathFinding.js": "~0.4.11"
+  }
+}

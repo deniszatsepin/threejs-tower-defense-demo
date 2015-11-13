@@ -1,0 +1,2515 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_43",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "count": 18636,
+            "type": 5123
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_44",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 18636,
+            "max": [
+                1.60866,
+                0.669795,
+                3.94728
+            ],
+            "min": [
+                -1.60716,
+                -0.514485,
+                -0.046053
+            ],
+            "type": 35665
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_44",
+            "byteOffset": 223632,
+            "byteStride": 12,
+            "count": 18636,
+            "max": [
+                1,
+                0.999939,
+                0.999969
+            ],
+            "min": [
+                -1,
+                -0.999969,
+                -1
+            ],
+            "type": 35665
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_44",
+            "byteOffset": 447264,
+            "byteStride": 8,
+            "count": 18636,
+            "max": [
+                0.995605,
+                1.99853
+            ],
+            "min": [
+                0.00240999,
+                1.00195
+            ],
+            "type": 35664
+        },
+        "accessor_36": {
+            "bufferView": "bufferView_44",
+            "byteOffset": 596352,
+            "byteStride": 16,
+            "count": 18636,
+            "max": [
+                1,
+                0.992157,
+                0.980393,
+                0.866668
+            ],
+            "min": [
+                0.00784296,
+                0,
+                0,
+                0
+            ],
+            "type": 35666
+        },
+        "accessor_39": {
+            "bufferView": "bufferView_44",
+            "byteOffset": 894528,
+            "byteStride": 16,
+            "count": 18636,
+            "max": [
+                58,
+                61,
+                61,
+                61
+            ],
+            "min": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "type": 35666
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@8a3db4f677013f7e91798a62a811c1dd1cad58e7",
+        "premultipliedAlpha": true,
+        "profile": "WebGL 1.0.2",
+        "version": 0.6
+    },
+    "bufferViews": {
+        "bufferView_42": {
+            "buffer": "villain",
+            "byteLength": 3968,
+            "byteOffset": 0
+        },
+        "bufferView_43": {
+            "buffer": "villain",
+            "byteLength": 37272,
+            "byteOffset": 3968,
+            "target": 34963
+        },
+        "bufferView_44": {
+            "buffer": "villain",
+            "byteLength": 1192704,
+            "byteOffset": 41240,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "villain": {
+            "byteLength": 1233944,
+            "path": "villain.bin",
+            "type": "arraybuffer"
+        }
+    },
+    "cameras": {
+        "camera_0": {
+            "perspective": {
+                "aspect_ratio": 1.33333,
+                "xfov": 49.1343,
+                "zfar": 100,
+                "znear": 0.1
+            },
+            "type": "perspective"
+        }
+    },
+    "images": {
+        "CHRNPCICOVIL134_DIFFU": {
+            "path": "CHRNPCICOVIL134_DIFFU.tga"
+        },
+        "CHRNPCICOVIL134_NORMA": {
+            "path": "CHRNPCICOVIL134_NORMA.tga"
+        }
+    },
+    "lights": {
+        "Lamp-light": {
+            "point": {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "constantAttenuation": 1,
+                "linearAttenuation": 0,
+                "quadraticAttenuation": 0.00111109
+            },
+            "type": "point"
+        },
+        "Lamp_001-light": {
+            "point": {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "constantAttenuation": 1,
+                "linearAttenuation": 0,
+                "quadraticAttenuation": 0.00111109
+            },
+            "type": "point"
+        },
+        "Lamp_002-light": {
+            "point": {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "constantAttenuation": 1,
+                "linearAttenuation": 0,
+                "quadraticAttenuation": 0.00111109
+            },
+            "type": "point"
+        },
+        "Lamp_003-light": {
+            "point": {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "constantAttenuation": 1,
+                "linearAttenuation": 0,
+                "quadraticAttenuation": 0.00111109
+            },
+            "type": "point"
+        },
+        "Lamp_004-light": {
+            "point": {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "constantAttenuation": 1,
+                "linearAttenuation": 0,
+                "quadraticAttenuation": 0.00111109
+            },
+            "type": "point"
+        },
+        "Sun-light": {
+            "directional": {
+                "color": [
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            },
+            "type": "directional"
+        }
+    },
+    "materials": {
+        "Material-effect": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "bump": "texture_CHRNPCICOVIL134_NORMA",
+                    "diffuse": "texture_CHRNPCICOVIL134_DIFFU",
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Material"
+        }
+    },
+    "meshes": {
+        "Geometry-mesh": {
+            "name": "Geometry",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINT": "accessor_39",
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27",
+                        "WEIGHT": "accessor_36"
+                    },
+                    "indices": "accessor_21",
+                    "material": "Material-effect",
+                    "primitive": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Armature": {
+            "children": [
+                "VisualSceneNode1"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Armature"
+        },
+        "Camera": {
+            "camera": "camera_0",
+            "children": [],
+            "matrix": [
+                1,
+                -1.49108e-06,
+                -5.42988e-06,
+                0,
+                5.42988e-06,
+                1.86363e-06,
+                1,
+                0,
+                -1.49107e-06,
+                -1,
+                1.86364e-06,
+                0,
+                0,
+                -11.6959,
+                3.26855,
+                1
+            ],
+            "name": "Camera"
+        },
+        "Lamp": {
+            "children": [],
+            "light": "Lamp-light",
+            "matrix": [
+                0.955171,
+                0.290865,
+                -0.0551891,
+                0,
+                -0.199883,
+                0.771101,
+                0.604525,
+                0,
+                0.218391,
+                -0.566393,
+                0.794672,
+                0,
+                2,
+                -4,
+                6,
+                1
+            ],
+            "name": "Lamp"
+        },
+        "Lamp_001": {
+            "children": [],
+            "light": "Lamp_001-light",
+            "matrix": [
+                0.955171,
+                0.290865,
+                -0.0551891,
+                0,
+                -0.199883,
+                0.771101,
+                0.604525,
+                0,
+                0.218391,
+                -0.566393,
+                0.794672,
+                0,
+                4.76837e-07,
+                3,
+                6,
+                1
+            ],
+            "name": "Lamp_001"
+        },
+        "Lamp_002": {
+            "children": [],
+            "light": "Lamp_002-light",
+            "matrix": [
+                0.955171,
+                0.290865,
+                -0.0551891,
+                0,
+                -0.199883,
+                0.771101,
+                0.604525,
+                0,
+                0.218391,
+                -0.566393,
+                0.794672,
+                0,
+                4.76837e-07,
+                3,
+                0,
+                1
+            ],
+            "name": "Lamp_002"
+        },
+        "Lamp_003": {
+            "children": [],
+            "light": "Lamp_003-light",
+            "matrix": [
+                0.955171,
+                0.290865,
+                -0.0551891,
+                0,
+                -0.199883,
+                0.771101,
+                0.604525,
+                0,
+                0.218391,
+                -0.566393,
+                0.794672,
+                0,
+                -2,
+                3,
+                6,
+                1
+            ],
+            "name": "Lamp_003"
+        },
+        "Lamp_004": {
+            "children": [],
+            "light": "Lamp_004-light",
+            "matrix": [
+                0.955171,
+                0.290865,
+                -0.0551891,
+                0,
+                -0.199883,
+                0.771101,
+                0.604525,
+                0,
+                0.218391,
+                -0.566393,
+                0.794672,
+                0,
+                -2,
+                3,
+                0,
+                1
+            ],
+            "name": "Lamp_004"
+        },
+        "Lights": {
+            "children": [
+                "Sun",
+                "Lamp",
+                "Lamp_004",
+                "Lamp_003",
+                "Lamp_002",
+                "Lamp_001"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Lights"
+        },
+        "Sun": {
+            "children": [],
+            "light": "Sun-light",
+            "matrix": [
+                1,
+                0,
+                -2.22045e-16,
+                0,
+                0,
+                7.54979e-08,
+                1,
+                0,
+                2.22045e-16,
+                -1,
+                7.54979e-08,
+                0,
+                0,
+                -11.6959,
+                1.26855,
+                1
+            ],
+            "name": "Sun"
+        },
+        "VisualSceneNode1": {
+            "children": [
+                "VisualSceneNode2"
+            ],
+            "jointId": "VisualSceneNode1",
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.0161548,
+                0.99987,
+                0,
+                0,
+                -0.99987,
+                0.0161548,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode1"
+        },
+        "VisualSceneNode10": {
+            "children": [
+                "VisualSceneNode11"
+            ],
+            "jointId": "VisualSceneNode10",
+            "matrix": [
+                0.58076,
+                0.792727,
+                0.185207,
+                0,
+                -0.335393,
+                0.440295,
+                -0.832858,
+                0,
+                -0.741775,
+                0.421574,
+                0.52158,
+                0,
+                0,
+                1.01932,
+                -7.45058e-09,
+                1
+            ],
+            "name": "VisualSceneNode10"
+        },
+        "VisualSceneNode11": {
+            "children": [],
+            "jointId": "VisualSceneNode11",
+            "matrix": [
+                0.458448,
+                -0.289651,
+                -0.840195,
+                0,
+                -0.840195,
+                -0.449381,
+                -0.303528,
+                0,
+                -0.28965,
+                0.845079,
+                -0.449381,
+                0,
+                2.98023e-08,
+                0.349207,
+                -2.98023e-08,
+                1
+            ],
+            "name": "VisualSceneNode11"
+        },
+        "VisualSceneNode12": {
+            "children": [
+                "VisualSceneNode13"
+            ],
+            "jointId": "VisualSceneNode12",
+            "matrix": [
+                1,
+                -7.53645e-06,
+                8.27484e-06,
+                0,
+                8.27484e-06,
+                0.995648,
+                -0.0931973,
+                0,
+                -7.53645e-06,
+                0.0931973,
+                0.995648,
+                0,
+                0,
+                0.171866,
+                -0.0148296,
+                1
+            ],
+            "name": "VisualSceneNode12"
+        },
+        "VisualSceneNode13": {
+            "children": [
+                "VisualSceneNode14"
+            ],
+            "jointId": "VisualSceneNode13",
+            "matrix": [
+                1,
+                -1.78416e-08,
+                -1.06889e-05,
+                0,
+                1.78416e-08,
+                1,
+                0,
+                0,
+                1.06889e-05,
+                0,
+                1,
+                0,
+                0,
+                0.241696,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode13"
+        },
+        "VisualSceneNode14": {
+            "children": [
+                "VisualSceneNode15",
+                "VisualSceneNode37",
+                "VisualSceneNode41"
+            ],
+            "jointId": "VisualSceneNode14",
+            "matrix": [
+                1,
+                -3.35554e-06,
+                2.04249e-06,
+                0,
+                3.14666e-06,
+                0.995491,
+                0.0948593,
+                0,
+                -2.35158e-06,
+                -0.0948593,
+                0.995491,
+                0,
+                0,
+                0.318878,
+                -1.49012e-08,
+                1
+            ],
+            "name": "VisualSceneNode14"
+        },
+        "VisualSceneNode15": {
+            "children": [
+                "VisualSceneNode16"
+            ],
+            "jointId": "VisualSceneNode15",
+            "matrix": [
+                0.0873149,
+                0.133426,
+                0.987205,
+                0,
+                0.987441,
+                -0.14257,
+                -0.0680667,
+                0,
+                0.131664,
+                0.98075,
+                -0.144198,
+                0,
+                0.173045,
+                0.22614,
+                0.00176813,
+                1
+            ],
+            "name": "VisualSceneNode15"
+        },
+        "VisualSceneNode16": {
+            "children": [
+                "VisualSceneNode17",
+                "VisualSceneNode36"
+            ],
+            "jointId": "VisualSceneNode16",
+            "matrix": [
+                0.0873297,
+                0.987425,
+                0.131775,
+                0,
+                0.131808,
+                -0.14257,
+                0.980969,
+                0,
+                0.987421,
+                -0.0682988,
+                -0.142601,
+                0,
+                2.98023e-08,
+                0.230691,
+                4.76837e-07,
+                1
+            ],
+            "name": "VisualSceneNode16"
+        },
+        "VisualSceneNode17": {
+            "children": [
+                "VisualSceneNode18",
+                "VisualSceneNode35"
+            ],
+            "jointId": "VisualSceneNode17",
+            "matrix": [
+                1,
+                7.27596e-12,
+                8.47467e-09,
+                0,
+                -7.94535e-09,
+                1,
+                1.22236e-09,
+                0,
+                -8.47512e-09,
+                -3.63798e-12,
+                1,
+                0,
+                0.503588,
+                -0.252988,
+                -0.0153304,
+                1
+            ],
+            "name": "VisualSceneNode17"
+        },
+        "VisualSceneNode18": {
+            "children": [
+                "VisualSceneNode19",
+                "VisualSceneNode22",
+                "VisualSceneNode25",
+                "VisualSceneNode28",
+                "VisualSceneNode31",
+                "VisualSceneNode34"
+            ],
+            "jointId": "VisualSceneNode18",
+            "matrix": [
+                1,
+                0,
+                -8.12683e-14,
+                0,
+                -3.02971e-08,
+                1,
+                4.95129e-09,
+                0,
+                9.23261e-13,
+                0,
+                1,
+                0,
+                0.42899,
+                -0.232076,
+                0.339595,
+                1
+            ],
+            "name": "VisualSceneNode18"
+        },
+        "VisualSceneNode19": {
+            "children": [
+                "VisualSceneNode20"
+            ],
+            "jointId": "VisualSceneNode19",
+            "matrix": [
+                0.361434,
+                0.804574,
+                0.471195,
+                0,
+                0.471246,
+                -0.593693,
+                0.652269,
+                0,
+                0.804545,
+                -0.0137039,
+                -0.593734,
+                0,
+                0.0814861,
+                -0.0880094,
+                0.175265,
+                1
+            ],
+            "name": "VisualSceneNode19"
+        },
+        "VisualSceneNode2": {
+            "children": [
+                "VisualSceneNode3",
+                "VisualSceneNode12"
+            ],
+            "jointId": "VisualSceneNode2",
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.99987,
+                0.0161548,
+                0,
+                0,
+                -0.0161548,
+                0.99987,
+                0,
+                0,
+                2.34918,
+                -3.72529e-09,
+                1
+            ],
+            "name": "VisualSceneNode2"
+        },
+        "VisualSceneNode20": {
+            "children": [
+                "VisualSceneNode21"
+            ],
+            "jointId": "VisualSceneNode20",
+            "matrix": [
+                0.956608,
+                0.121089,
+                0.265027,
+                0,
+                -0.106042,
+                0.991865,
+                -0.0704215,
+                0,
+                -0.271398,
+                0.0392619,
+                0.961666,
+                0,
+                0,
+                0.0851955,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode20"
+        },
+        "VisualSceneNode21": {
+            "children": [],
+            "jointId": "VisualSceneNode21",
+            "matrix": [
+                0.616003,
+                0.372463,
+                0.694126,
+                0,
+                0.694159,
+                -0.673222,
+                -0.254786,
+                0,
+                0.372403,
+                0.638783,
+                -0.673255,
+                0,
+                0,
+                0.0671133,
+                -5.58794e-08,
+                1
+            ],
+            "name": "VisualSceneNode21"
+        },
+        "VisualSceneNode22": {
+            "children": [
+                "VisualSceneNode23"
+            ],
+            "jointId": "VisualSceneNode22",
+            "matrix": [
+                0.314976,
+                0.725699,
+                0.611678,
+                0,
+                0.611724,
+                -0.647984,
+                0.453773,
+                0,
+                0.725661,
+                0.231251,
+                -0.648027,
+                0,
+                0.126951,
+                -0.0920444,
+                0.129824,
+                1
+            ],
+            "name": "VisualSceneNode22"
+        },
+        "VisualSceneNode23": {
+            "children": [
+                "VisualSceneNode24"
+            ],
+            "jointId": "VisualSceneNode23",
+            "matrix": [
+                0.986753,
+                0.0854202,
+                0.13792,
+                0,
+                -0.0802553,
+                0.995864,
+                -0.0425957,
+                0,
+                -0.140989,
+                0.0309626,
+                0.989527,
+                0,
+                -2.38419e-07,
+                0.0870872,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode23"
+        },
+        "VisualSceneNode24": {
+            "children": [],
+            "jointId": "VisualSceneNode24",
+            "matrix": [
+                0.463119,
+                0.553027,
+                0.69259,
+                0,
+                0.692621,
+                -0.713395,
+                0.106501,
+                0,
+                0.552989,
+                0.43038,
+                -0.713426,
+                0,
+                2.38419e-07,
+                0.0699519,
+                -1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode24"
+        },
+        "VisualSceneNode25": {
+            "children": [
+                "VisualSceneNode26"
+            ],
+            "jointId": "VisualSceneNode25",
+            "matrix": [
+                0.381525,
+                0.553663,
+                0.7402,
+                0,
+                0.740228,
+                -0.662607,
+                0.114085,
+                0,
+                0.553626,
+                0.504391,
+                -0.662638,
+                0,
+                0.154771,
+                -0.126239,
+                0.0033358,
+                1
+            ],
+            "name": "VisualSceneNode25"
+        },
+        "VisualSceneNode26": {
+            "children": [
+                "VisualSceneNode27"
+            ],
+            "jointId": "VisualSceneNode26",
+            "matrix": [
+                0.980788,
+                0.150028,
+                0.124684,
+                0,
+                -0.147799,
+                0.988649,
+                -0.0269904,
+                0,
+                -0.127318,
+                0.00804362,
+                0.991829,
+                0,
+                -2.38419e-07,
+                0.0688937,
+                -2.38419e-07,
+                1
+            ],
+            "name": "VisualSceneNode26"
+        },
+        "VisualSceneNode27": {
+            "children": [],
+            "jointId": "VisualSceneNode27",
+            "matrix": [
+                0.554276,
+                0.660497,
+                0.50648,
+                0,
+                0.506493,
+                -0.750528,
+                0.424468,
+                0,
+                0.660487,
+                0.0212564,
+                -0.750537,
+                0,
+                0,
+                0.0434991,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode27"
+        },
+        "VisualSceneNode28": {
+            "children": [
+                "VisualSceneNode29"
+            ],
+            "jointId": "VisualSceneNode28",
+            "matrix": [
+                0.351263,
+                0.648886,
+                0.674953,
+                0,
+                0.674992,
+                -0.675087,
+                0.297731,
+                0,
+                0.648845,
+                0.351006,
+                -0.675126,
+                0,
+                0.14801,
+                -0.105637,
+                0.0659557,
+                1
+            ],
+            "name": "VisualSceneNode28"
+        },
+        "VisualSceneNode29": {
+            "children": [
+                "VisualSceneNode30"
+            ],
+            "jointId": "VisualSceneNode29",
+            "matrix": [
+                0.992104,
+                0.072953,
+                0.102015,
+                0,
+                -0.069174,
+                0.996798,
+                -0.0401071,
+                0,
+                -0.104614,
+                0.0327337,
+                0.993974,
+                0,
+                2.38419e-07,
+                0.0793146,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode29"
+        },
+        "VisualSceneNode3": {
+            "children": [
+                "VisualSceneNode4",
+                "VisualSceneNode8"
+            ],
+            "jointId": "VisualSceneNode3",
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2.43028e-13,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -0.000680685,
+                -0.00122534,
+                1
+            ],
+            "name": "VisualSceneNode3"
+        },
+        "VisualSceneNode30": {
+            "children": [],
+            "jointId": "VisualSceneNode30",
+            "matrix": [
+                0.463914,
+                0.622521,
+                0.630279,
+                0,
+                0.630305,
+                -0.731889,
+                0.258947,
+                0,
+                0.622494,
+                0.27714,
+                -0.731912,
+                0,
+                -2.38419e-07,
+                0.0615752,
+                -1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode30"
+        },
+        "VisualSceneNode31": {
+            "children": [
+                "VisualSceneNode32"
+            ],
+            "jointId": "VisualSceneNode31",
+            "matrix": [
+                0.38321,
+                -0.844473,
+                -0.374187,
+                0,
+                -0.374155,
+                -0.512309,
+                0.773012,
+                0,
+                -0.844486,
+                -0.156222,
+                -0.512286,
+                0,
+                -0.0490394,
+                -0.0337353,
+                0.0372183,
+                1
+            ],
+            "name": "VisualSceneNode31"
+        },
+        "VisualSceneNode32": {
+            "children": [
+                "VisualSceneNode33"
+            ],
+            "jointId": "VisualSceneNode32",
+            "matrix": [
+                0.959358,
+                -0.00881544,
+                -0.282054,
+                0,
+                -0.0480087,
+                0.979842,
+                -0.193918,
+                0,
+                0.278078,
+                0.199577,
+                0.939596,
+                0,
+                1.19209e-07,
+                0.113443,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode32"
+        },
+        "VisualSceneNode33": {
+            "children": [],
+            "jointId": "VisualSceneNode33",
+            "matrix": [
+                0.609173,
+                -0.221222,
+                -0.761557,
+                0,
+                -0.76154,
+                -0.431136,
+                -0.48392,
+                0,
+                -0.221281,
+                0.874747,
+                -0.431106,
+                0,
+                2.38419e-07,
+                0.10784,
+                2.38419e-07,
+                1
+            ],
+            "name": "VisualSceneNode33"
+        },
+        "VisualSceneNode34": {
+            "children": [],
+            "jointId": "VisualSceneNode34",
+            "matrix": [
+                1,
+                -8.26913e-08,
+                -8.97998e-09,
+                0,
+                -4.87489e-10,
+                1,
+                4.95129e-09,
+                0,
+                6.0929e-13,
+                0,
+                1,
+                0,
+                0.0179409,
+                -0.137932,
+                0.0420442,
+                1
+            ],
+            "name": "VisualSceneNode34"
+        },
+        "VisualSceneNode35": {
+            "children": [],
+            "jointId": "VisualSceneNode35",
+            "matrix": [
+                1,
+                0,
+                -8.12683e-14,
+                0,
+                -3.02971e-08,
+                1,
+                4.95129e-09,
+                0,
+                9.23261e-13,
+                0,
+                1,
+                0,
+                0.214494,
+                -0.116039,
+                0.169796,
+                1
+            ],
+            "name": "VisualSceneNode35"
+        },
+        "VisualSceneNode36": {
+            "children": [],
+            "jointId": "VisualSceneNode36",
+            "matrix": [
+                1,
+                7.27596e-12,
+                8.47467e-09,
+                0,
+                -7.94535e-09,
+                1,
+                1.22236e-09,
+                0,
+                -8.47512e-09,
+                -3.63798e-12,
+                1,
+                0,
+                0.251793,
+                -0.126493,
+                -0.00766523,
+                1
+            ],
+            "name": "VisualSceneNode36"
+        },
+        "VisualSceneNode37": {
+            "children": [
+                "VisualSceneNode38"
+            ],
+            "jointId": "VisualSceneNode37",
+            "matrix": [
+                1,
+                -8.11142e-06,
+                3.51173e-06,
+                0,
+                6.74592e-06,
+                0.957102,
+                0.289753,
+                0,
+                -5.71139e-06,
+                -0.289753,
+                0.957102,
+                0,
+                -6.34959e-06,
+                0.32649,
+                0.0194647,
+                1
+            ],
+            "name": "VisualSceneNode37"
+        },
+        "VisualSceneNode38": {
+            "children": [
+                "VisualSceneNode39",
+                "VisualSceneNode40"
+            ],
+            "jointId": "VisualSceneNode38",
+            "matrix": [
+                1,
+                7.68303e-06,
+                -5.99511e-06,
+                0,
+                -9.09054e-06,
+                0.957101,
+                -0.289753,
+                0,
+                3.51174e-06,
+                0.289753,
+                0.957101,
+                0,
+                7.27596e-12,
+                0.252575,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode38"
+        },
+        "VisualSceneNode39": {
+            "children": [],
+            "jointId": "VisualSceneNode39",
+            "matrix": [
+                1,
+                -9.09495e-13,
+                6.6418e-12,
+                0,
+                0,
+                1,
+                2.32831e-10,
+                0,
+                -6.64535e-12,
+                0,
+                1,
+                0,
+                3.7493e-06,
+                0.101434,
+                0.242537,
+                1
+            ],
+            "name": "VisualSceneNode39"
+        },
+        "VisualSceneNode4": {
+            "children": [
+                "VisualSceneNode5"
+            ],
+            "jointId": "VisualSceneNode4",
+            "matrix": [
+                0.960944,
+                0.204226,
+                0.186756,
+                0,
+                0.186756,
+                -0.976565,
+                0.106972,
+                0,
+                0.204225,
+                -0.0679159,
+                -0.976565,
+                0,
+                0.166283,
+                -0.217652,
+                -0.0361841,
+                1
+            ],
+            "name": "VisualSceneNode4"
+        },
+        "VisualSceneNode40": {
+            "children": [],
+            "jointId": "VisualSceneNode40",
+            "matrix": [
+                1,
+                -9.09495e-13,
+                6.6418e-12,
+                0,
+                0,
+                1,
+                2.32831e-10,
+                0,
+                -6.64535e-12,
+                0,
+                1,
+                0,
+                3.7493e-06,
+                -0.0487058,
+                0.058015,
+                1
+            ],
+            "name": "VisualSceneNode40"
+        },
+        "VisualSceneNode41": {
+            "children": [
+                "VisualSceneNode42"
+            ],
+            "jointId": "VisualSceneNode41",
+            "matrix": [
+                0.0873043,
+                -0.133383,
+                -0.987212,
+                0,
+                -0.987448,
+                -0.142525,
+                -0.0680685,
+                0,
+                -0.131624,
+                0.980763,
+                -0.144152,
+                0,
+                -0.173046,
+                0.22613,
+                0.00176859,
+                1
+            ],
+            "name": "VisualSceneNode41"
+        },
+        "VisualSceneNode42": {
+            "children": [
+                "VisualSceneNode43",
+                "VisualSceneNode62"
+            ],
+            "jointId": "VisualSceneNode42",
+            "matrix": [
+                0.0873191,
+                -0.987432,
+                -0.131734,
+                0,
+                -0.131767,
+                -0.142525,
+                0.980981,
+                0,
+                -0.987427,
+                -0.0683002,
+                -0.142556,
+                0,
+                2.98023e-08,
+                0.23069,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode42"
+        },
+        "VisualSceneNode43": {
+            "children": [
+                "VisualSceneNode44",
+                "VisualSceneNode61"
+            ],
+            "jointId": "VisualSceneNode43",
+            "matrix": [
+                1,
+                0,
+                -4.55036e-08,
+                0,
+                1.81899e-09,
+                1,
+                -7.63976e-10,
+                0,
+                4.55039e-08,
+                0,
+                1,
+                0,
+                -0.503587,
+                -0.252976,
+                -0.0153305,
+                1
+            ],
+            "name": "VisualSceneNode43"
+        },
+        "VisualSceneNode44": {
+            "children": [
+                "VisualSceneNode45",
+                "VisualSceneNode48",
+                "VisualSceneNode51",
+                "VisualSceneNode54",
+                "VisualSceneNode57",
+                "VisualSceneNode60"
+            ],
+            "jointId": "VisualSceneNode44",
+            "matrix": [
+                1,
+                1.45519e-11,
+                1.76748e-13,
+                0,
+                -5.61704e-09,
+                1,
+                -7.60338e-10,
+                0,
+                4.04121e-13,
+                3.63798e-12,
+                1,
+                0,
+                -0.428988,
+                -0.232085,
+                0.339594,
+                1
+            ],
+            "name": "VisualSceneNode44"
+        },
+        "VisualSceneNode45": {
+            "children": [
+                "VisualSceneNode46"
+            ],
+            "jointId": "VisualSceneNode45",
+            "matrix": [
+                0.361441,
+                -0.804584,
+                -0.471174,
+                0,
+                -0.471234,
+                -0.59368,
+                0.65229,
+                0,
+                -0.804549,
+                -0.0137306,
+                -0.593728,
+                0,
+                -0.0814912,
+                -0.0880148,
+                0.175267,
+                1
+            ],
+            "name": "VisualSceneNode45"
+        },
+        "VisualSceneNode46": {
+            "children": [
+                "VisualSceneNode47"
+            ],
+            "jointId": "VisualSceneNode46",
+            "matrix": [
+                0.956612,
+                -0.121109,
+                -0.265003,
+                0,
+                0.106081,
+                0.991865,
+                -0.0703607,
+                0,
+                0.271368,
+                0.0391963,
+                0.961677,
+                0,
+                0,
+                0.085191,
+                5.96046e-08,
+                1
+            ],
+            "name": "VisualSceneNode46"
+        },
+        "VisualSceneNode47": {
+            "children": [],
+            "jointId": "VisualSceneNode47",
+            "matrix": [
+                0.615993,
+                -0.372493,
+                -0.694119,
+                0,
+                -0.694157,
+                -0.673241,
+                -0.254739,
+                0,
+                -0.372421,
+                0.638745,
+                -0.673281,
+                0,
+                0,
+                0.0671133,
+                3.72529e-09,
+                1
+            ],
+            "name": "VisualSceneNode47"
+        },
+        "VisualSceneNode48": {
+            "children": [
+                "VisualSceneNode49"
+            ],
+            "jointId": "VisualSceneNode48",
+            "matrix": [
+                0.31519,
+                -0.725664,
+                -0.61161,
+                0,
+                -0.611664,
+                -0.64808,
+                0.453717,
+                0,
+                -0.725619,
+                0.231093,
+                -0.648131,
+                0,
+                -0.126956,
+                -0.0920351,
+                0.129826,
+                1
+            ],
+            "name": "VisualSceneNode48"
+        },
+        "VisualSceneNode49": {
+            "children": [
+                "VisualSceneNode50"
+            ],
+            "jointId": "VisualSceneNode49",
+            "matrix": [
+                0.986783,
+                -0.0853016,
+                -0.137782,
+                0,
+                0.0801417,
+                0.995874,
+                -0.0425831,
+                0,
+                0.140846,
+                0.0309781,
+                0.989547,
+                0,
+                0,
+                0.087091,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode49"
+        },
+        "VisualSceneNode5": {
+            "children": [
+                "VisualSceneNode6"
+            ],
+            "jointId": "VisualSceneNode5",
+            "matrix": [
+                0.993083,
+                0.087458,
+                0.0783439,
+                0,
+                -0.0976466,
+                0.985691,
+                0.137402,
+                0,
+                -0.0652059,
+                -0.144102,
+                0.987412,
+                0,
+                -5.96046e-08,
+                0.92756,
+                3.72529e-09,
+                1
+            ],
+            "name": "VisualSceneNode5"
+        },
+        "VisualSceneNode50": {
+            "children": [],
+            "jointId": "VisualSceneNode50",
+            "matrix": [
+                0.463153,
+                -0.553006,
+                -0.692585,
+                0,
+                -0.692621,
+                -0.713404,
+                0.106452,
+                0,
+                -0.552961,
+                0.430395,
+                -0.713438,
+                0,
+                0,
+                0.0699469,
+                -1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode50"
+        },
+        "VisualSceneNode51": {
+            "children": [
+                "VisualSceneNode52"
+            ],
+            "jointId": "VisualSceneNode51",
+            "matrix": [
+                0.381689,
+                -0.553688,
+                -0.740097,
+                0,
+                -0.740127,
+                -0.662718,
+                0.114095,
+                0,
+                -0.553648,
+                0.504217,
+                -0.662752,
+                0,
+                -0.154779,
+                -0.126234,
+                0.00333567,
+                1
+            ],
+            "name": "VisualSceneNode51"
+        },
+        "VisualSceneNode52": {
+            "children": [
+                "VisualSceneNode53"
+            ],
+            "jointId": "VisualSceneNode52",
+            "matrix": [
+                0.980817,
+                -0.149945,
+                -0.124554,
+                0,
+                0.147734,
+                0.988662,
+                -0.0268556,
+                0,
+                0.127169,
+                0.00793949,
+                0.991849,
+                0,
+                2.38419e-07,
+                0.0689007,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode52"
+        },
+        "VisualSceneNode53": {
+            "children": [],
+            "jointId": "VisualSceneNode53",
+            "matrix": [
+                0.554302,
+                -0.660482,
+                -0.50647,
+                0,
+                -0.506485,
+                -0.750541,
+                0.424454,
+                0,
+                -0.660471,
+                0.0212438,
+                -0.750551,
+                0,
+                2.38419e-07,
+                0.0434938,
+                -2.38419e-07,
+                1
+            ],
+            "name": "VisualSceneNode53"
+        },
+        "VisualSceneNode54": {
+            "children": [
+                "VisualSceneNode55"
+            ],
+            "jointId": "VisualSceneNode54",
+            "matrix": [
+                0.351101,
+                -0.648888,
+                -0.675035,
+                0,
+                -0.675079,
+                -0.674999,
+                0.297731,
+                0,
+                -0.648842,
+                0.351169,
+                -0.675044,
+                0,
+                -0.148011,
+                -0.105638,
+                0.0659571,
+                1
+            ],
+            "name": "VisualSceneNode54"
+        },
+        "VisualSceneNode55": {
+            "children": [
+                "VisualSceneNode56"
+            ],
+            "jointId": "VisualSceneNode55",
+            "matrix": [
+                0.992017,
+                -0.0733307,
+                -0.102592,
+                0,
+                0.0695018,
+                0.996763,
+                -0.0404166,
+                0,
+                0.105224,
+                0.0329636,
+                0.993902,
+                0,
+                -2.38419e-07,
+                0.0793144,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode55"
+        },
+        "VisualSceneNode56": {
+            "children": [],
+            "jointId": "VisualSceneNode56",
+            "matrix": [
+                0.464357,
+                -0.622281,
+                -0.63019,
+                0,
+                -0.63022,
+                -0.732107,
+                0.25854,
+                0,
+                -0.62225,
+                0.277103,
+                -0.732133,
+                0,
+                -2.38419e-07,
+                0.0615796,
+                -1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode56"
+        },
+        "VisualSceneNode57": {
+            "children": [
+                "VisualSceneNode58"
+            ],
+            "jointId": "VisualSceneNode57",
+            "matrix": [
+                0.383417,
+                0.844402,
+                0.374135,
+                0,
+                0.374094,
+                -0.512365,
+                0.773005,
+                0,
+                0.84442,
+                -0.156421,
+                -0.512335,
+                0,
+                0.0490433,
+                -0.0337319,
+                0.0372203,
+                1
+            ],
+            "name": "VisualSceneNode57"
+        },
+        "VisualSceneNode58": {
+            "children": [
+                "VisualSceneNode59"
+            ],
+            "jointId": "VisualSceneNode58",
+            "matrix": [
+                0.959468,
+                0.00871032,
+                0.281683,
+                0,
+                0.0479994,
+                0.979867,
+                -0.193795,
+                0,
+                -0.2777,
+                0.199461,
+                0.939733,
+                0,
+                1.19209e-07,
+                0.113433,
+                1.19209e-07,
+                1
+            ],
+            "name": "VisualSceneNode58"
+        },
+        "VisualSceneNode59": {
+            "children": [],
+            "jointId": "VisualSceneNode59",
+            "matrix": [
+                0.609054,
+                0.221287,
+                0.761633,
+                0,
+                0.761611,
+                -0.431192,
+                -0.483757,
+                0,
+                0.221361,
+                0.874703,
+                -0.431154,
+                0,
+                0,
+                0.10785,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode59"
+        },
+        "VisualSceneNode6": {
+            "children": [
+                "VisualSceneNode7"
+            ],
+            "jointId": "VisualSceneNode6",
+            "matrix": [
+                0.58076,
+                -0.792727,
+                -0.185207,
+                0,
+                0.335393,
+                0.440295,
+                -0.832858,
+                0,
+                0.741775,
+                0.421573,
+                0.521581,
+                0,
+                -2.98023e-08,
+                1.01932,
+                -7.45058e-09,
+                1
+            ],
+            "name": "VisualSceneNode6"
+        },
+        "VisualSceneNode60": {
+            "children": [],
+            "jointId": "VisualSceneNode60",
+            "matrix": [
+                1,
+                -1.04221e-07,
+                -9.01792e-09,
+                0,
+                -5.63159e-09,
+                1,
+                2.96495e-09,
+                0,
+                -5.05374e-13,
+                0,
+                1,
+                0,
+                -0.0179458,
+                -0.137937,
+                0.0420449,
+                1
+            ],
+            "name": "VisualSceneNode60"
+        },
+        "VisualSceneNode61": {
+            "children": [],
+            "jointId": "VisualSceneNode61",
+            "matrix": [
+                1,
+                1.45519e-11,
+                1.76748e-13,
+                0,
+                -5.61704e-09,
+                1,
+                -7.60338e-10,
+                0,
+                4.04121e-13,
+                3.63798e-12,
+                1,
+                0,
+                -0.214495,
+                -0.116039,
+                0.169797,
+                1
+            ],
+            "name": "VisualSceneNode61"
+        },
+        "VisualSceneNode62": {
+            "children": [],
+            "jointId": "VisualSceneNode62",
+            "matrix": [
+                1,
+                0,
+                -4.55036e-08,
+                0,
+                1.81899e-09,
+                1,
+                -7.63976e-10,
+                0,
+                4.55039e-08,
+                0,
+                1,
+                0,
+                -0.251794,
+                -0.126494,
+                -0.00766531,
+                1
+            ],
+            "name": "VisualSceneNode62"
+        },
+        "VisualSceneNode63": {
+            "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "VisualSceneNode1"
+                ],
+                "skin": "Armature_VisualSceneNode63-skin",
+                "sources": [
+                    "Geometry-mesh"
+                ]
+            },
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode63"
+        },
+        "VisualSceneNode7": {
+            "children": [],
+            "jointId": "VisualSceneNode7",
+            "matrix": [
+                0.458447,
+                0.289651,
+                0.840195,
+                0,
+                0.840195,
+                -0.449381,
+                -0.303527,
+                0,
+                0.289651,
+                0.845079,
+                -0.449381,
+                0,
+                0,
+                0.349208,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode7"
+        },
+        "VisualSceneNode8": {
+            "children": [
+                "VisualSceneNode9"
+            ],
+            "jointId": "VisualSceneNode8",
+            "matrix": [
+                0.960944,
+                -0.204227,
+                -0.186757,
+                0,
+                -0.186757,
+                -0.976565,
+                0.106971,
+                0,
+                -0.204227,
+                -0.0679154,
+                -0.976565,
+                0,
+                -0.166282,
+                -0.217652,
+                -0.036184,
+                1
+            ],
+            "name": "VisualSceneNode8"
+        },
+        "VisualSceneNode9": {
+            "children": [
+                "VisualSceneNode10"
+            ],
+            "jointId": "VisualSceneNode9",
+            "matrix": [
+                0.993083,
+                -0.087459,
+                -0.0783449,
+                0,
+                0.0976476,
+                0.98569,
+                0.137402,
+                0,
+                0.0652068,
+                -0.144101,
+                0.987412,
+                0,
+                0,
+                0.92756,
+                0,
+                1
+            ],
+            "name": "VisualSceneNode9"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_joint",
+                "a_normal",
+                "a_position",
+                "a_texcoord0",
+                "a_weight"
+            ],
+            "fragmentShader": "villain0FS",
+            "vertexShader": "villain0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "Lights",
+                "Camera",
+                "Armature",
+                "VisualSceneNode63"
+            ]
+        }
+    },
+    "shaders": {
+        "villain0FS": {
+            "path": "villain0FS.glsl",
+            "type": 35632
+        },
+        "villain0VS": {
+            "path": "villain0VS.glsl",
+            "type": 35633
+        }
+    },
+    "skins": {
+        "Armature_VisualSceneNode63-skin": {
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_42",
+                "byteOffset": 0,
+                "count": 62,
+                "type": 35676
+            },
+            "joints": [
+                "VisualSceneNode1",
+                "VisualSceneNode2",
+                "VisualSceneNode3",
+                "VisualSceneNode4",
+                "VisualSceneNode5",
+                "VisualSceneNode6",
+                "VisualSceneNode7",
+                "VisualSceneNode8",
+                "VisualSceneNode9",
+                "VisualSceneNode10",
+                "VisualSceneNode11",
+                "VisualSceneNode12",
+                "VisualSceneNode13",
+                "VisualSceneNode14",
+                "VisualSceneNode15",
+                "VisualSceneNode16",
+                "VisualSceneNode17",
+                "VisualSceneNode18",
+                "VisualSceneNode19",
+                "VisualSceneNode20",
+                "VisualSceneNode21",
+                "VisualSceneNode22",
+                "VisualSceneNode23",
+                "VisualSceneNode24",
+                "VisualSceneNode25",
+                "VisualSceneNode26",
+                "VisualSceneNode27",
+                "VisualSceneNode28",
+                "VisualSceneNode29",
+                "VisualSceneNode30",
+                "VisualSceneNode31",
+                "VisualSceneNode32",
+                "VisualSceneNode33",
+                "VisualSceneNode34",
+                "VisualSceneNode35",
+                "VisualSceneNode36",
+                "VisualSceneNode37",
+                "VisualSceneNode38",
+                "VisualSceneNode39",
+                "VisualSceneNode40",
+                "VisualSceneNode41",
+                "VisualSceneNode42",
+                "VisualSceneNode43",
+                "VisualSceneNode44",
+                "VisualSceneNode45",
+                "VisualSceneNode46",
+                "VisualSceneNode47",
+                "VisualSceneNode48",
+                "VisualSceneNode49",
+                "VisualSceneNode50",
+                "VisualSceneNode51",
+                "VisualSceneNode52",
+                "VisualSceneNode53",
+                "VisualSceneNode54",
+                "VisualSceneNode55",
+                "VisualSceneNode56",
+                "VisualSceneNode57",
+                "VisualSceneNode58",
+                "VisualSceneNode59",
+                "VisualSceneNode60",
+                "VisualSceneNode61",
+                "VisualSceneNode62"
+            ]
+        }
+    },
+    "techniques": {
+        "technique0": {
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "bump": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "joint": {
+                    "semantic": "JOINT",
+                    "type": 35666
+                },
+                "jointMat": {
+                    "semantic": "JOINT_MATRIX",
+                    "type": 35676
+                },
+                "light0Color": {
+                    "type": 35665,
+                    "value": [
+                        0.1,
+                        0.1,
+                        0.1
+                    ]
+                },
+                "light0Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Sun",
+                    "type": 35676
+                },
+                "light1Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light1ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light1LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light1QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light1Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Lamp",
+                    "type": 35676
+                },
+                "light2Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light2ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light2LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light2QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light2Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Lamp_004",
+                    "type": 35676
+                },
+                "light3Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light3ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light3LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light3QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light3Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Lamp_003",
+                    "type": 35676
+                },
+                "light4Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light4ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light4LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light4QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light4Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Lamp_002",
+                    "type": 35676
+                },
+                "light5Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light5ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light5LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light5QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light5Transform": {
+                    "semantic": "MODELVIEW",
+                    "source": "Lamp_001",
+                    "type": 35676
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                },
+                "weight": {
+                    "semantic": "WEIGHT",
+                    "type": 35666
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": true
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "ambient",
+                                "bump",
+                                "diffuse",
+                                "emission",
+                                "jointMat",
+                                "light0Color",
+                                "light0Transform",
+                                "light1Color",
+                                "light1ConstantAttenuation",
+                                "light1LinearAttenuation",
+                                "light1QuadraticAttenuation",
+                                "light1Transform",
+                                "light2Color",
+                                "light2ConstantAttenuation",
+                                "light2LinearAttenuation",
+                                "light2QuadraticAttenuation",
+                                "light2Transform",
+                                "light3Color",
+                                "light3ConstantAttenuation",
+                                "light3LinearAttenuation",
+                                "light3QuadraticAttenuation",
+                                "light3Transform",
+                                "light4Color",
+                                "light4ConstantAttenuation",
+                                "light4LinearAttenuation",
+                                "light4QuadraticAttenuation",
+                                "light4Transform",
+                                "light5Color",
+                                "light5ConstantAttenuation",
+                                "light5LinearAttenuation",
+                                "light5QuadraticAttenuation",
+                                "light5Transform",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix",
+                                "shininess",
+                                "specular"
+                            ],
+                            "texcoordBindings": {
+                                "bump": "TEXCOORD_0",
+                                "diffuse": "TEXCOORD_0"
+                            }
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_joint": "joint",
+                            "a_normal": "normal",
+                            "a_position": "position",
+                            "a_texcoord0": "texcoord0",
+                            "a_weight": "weight"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_ambient": "ambient",
+                            "u_bump": "bump",
+                            "u_diffuse": "diffuse",
+                            "u_emission": "emission",
+                            "u_jointMat": "jointMat",
+                            "u_light0Color": "light0Color",
+                            "u_light0Transform": "light0Transform",
+                            "u_light1Color": "light1Color",
+                            "u_light1ConstantAttenuation": "light1ConstantAttenuation",
+                            "u_light1LinearAttenuation": "light1LinearAttenuation",
+                            "u_light1QuadraticAttenuation": "light1QuadraticAttenuation",
+                            "u_light1Transform": "light1Transform",
+                            "u_light2Color": "light2Color",
+                            "u_light2ConstantAttenuation": "light2ConstantAttenuation",
+                            "u_light2LinearAttenuation": "light2LinearAttenuation",
+                            "u_light2QuadraticAttenuation": "light2QuadraticAttenuation",
+                            "u_light2Transform": "light2Transform",
+                            "u_light3Color": "light3Color",
+                            "u_light3ConstantAttenuation": "light3ConstantAttenuation",
+                            "u_light3LinearAttenuation": "light3LinearAttenuation",
+                            "u_light3QuadraticAttenuation": "light3QuadraticAttenuation",
+                            "u_light3Transform": "light3Transform",
+                            "u_light4Color": "light4Color",
+                            "u_light4ConstantAttenuation": "light4ConstantAttenuation",
+                            "u_light4LinearAttenuation": "light4LinearAttenuation",
+                            "u_light4QuadraticAttenuation": "light4QuadraticAttenuation",
+                            "u_light4Transform": "light4Transform",
+                            "u_light5Color": "light5Color",
+                            "u_light5ConstantAttenuation": "light5ConstantAttenuation",
+                            "u_light5LinearAttenuation": "light5LinearAttenuation",
+                            "u_light5QuadraticAttenuation": "light5QuadraticAttenuation",
+                            "u_light5Transform": "light5Transform",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_shininess": "shininess",
+                            "u_specular": "specular"
+                        }
+                    },
+                    "states": {
+                        "blendEnable": 0,
+                        "cullFaceEnable": 0,
+                        "depthMask": 1,
+                        "depthTestEnable": 1
+                    }
+                }
+            }
+        }
+    },
+    "textures": {
+        "texture_CHRNPCICOVIL134_DIFFU": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "CHRNPCICOVIL134_DIFFU",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_CHRNPCICOVIL134_NORMA": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "CHRNPCICOVIL134_NORMA",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "threeder",
+  "version": "0.0.1",
+  "description": "3d javascript game engine under ThreeJS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Denis Zatsepin <denis@zatsepin.spb.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^0.1.1",
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1",
+    "gulp-concat": "^2.3.3",
+    "gulp-if": "^1.2.2",
+    "gulp-markdox": "^0.1.0"
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.js"></script>
+    <script src="/javascripts/libs/threex/threex.sparks.js"></script>
+    <script src="/javascripts/libs/sparksjs/Sparks.js"></script>
+    <script src="/javascripts/libs/tweenjs/build/tween.min.js"></script>
+</head>
+<body>
+<div id="container" width="900" height="900"></div>
+<script>
+    window.onload = function() {
+        var clock = new THREE.Clock();
+        var container, stats;
+        var camera, scene, renderer, mesh;
+        var mouseX = 0, mouseY = 0;
+        var windowHalfX = window.innerWidth / 2;
+        var windowHalfY = window.innerHeight / 2;
+        var threexSparks;
+
+        if (!init()) {
+            animate();
+        }
+
+        function init() {
+            renderer = new THREE.WebGLRenderer({
+                antialias: true,
+                preserveDrawingBuffer: true
+            });
+            renderer.setClearColor(0x000000, 1);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+
+            document.getElementById('container').appendChild(renderer.domElement);
+
+            scene = new THREE.Scene();
+
+            camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 10000);
+            camera.position.set(0, 0, 100);
+            camera.lookAt(scene.position);
+            scene.add(camera);
+
+
+            var geometry = new THREE.CylinderGeometry(5, 5, 20, 32);
+            //var geometry	= new THREE.CubeGeometry( 10, 10, 10 );
+            var mesh = new THREE.Mesh(geometry, new THREE.MeshNormalMaterial());
+            mesh.position.y = 1;
+            scene.add(mesh);
+
+
+            threexSparks	= new THREEx.Sparks({
+                maxParticles	: 50,
+                counter		: new SPARKS.SteadyCounter(30)
+            });
+
+            // setup the emitter
+            var emitter	= threexSparks.emitter();
+
+            var initColorSize	= function(){
+                this.initialize = function( emitter, particle ){
+                    particle.target.color().setHSL(0.9, 0.5, 0.4);
+                    particle.target.size(10);
+                };
+            };
+
+
+            emitter.addInitializer(new initColorSize());
+            emitter.addInitializer(new SPARKS.Position( new SPARKS.PointZone( new THREE.Vector3(0,2,0) ) ) );
+            emitter.addInitializer(new SPARKS.Lifetime(0,2.0));
+            emitter.addInitializer(new SPARKS.Velocity(new SPARKS.PointZone(new THREE.Vector3(0,5,0))));
+
+            emitter.addAction(new SPARKS.Age());
+            emitter.addAction(new SPARKS.Move());
+            emitter.addAction(new SPARKS.RandomDrift(10,100,10));
+            emitter.addAction(new SPARKS.Accelerate(0,100,0));
+
+            threexSparks.emitter().start();
+            scene.add(threexSparks.container());
+        }
+
+        function animate() {
+
+            requestAnimationFrame(animate);
+
+            render();
+
+        }
+
+        function render() {
+
+
+            threexSparks && threexSparks.update();
+
+            // FIXME this should be INSIDE webgl renderer... bug
+            renderer.context.depthMask(true);
+
+            renderer.render(scene, camera);
+        }
+    }
+</script>
+</body>
+</html>
